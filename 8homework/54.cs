@@ -48,7 +48,7 @@ class HelloWorld {
         {
             for(int j=0;j<arr.GetLength(1)-1;++j)
             {
-                if(arr[index,j]>arr[index,j+1])
+                if(arr[index,j]<arr[index,j+1])
                 {
                     int tmp =arr[index,j];
                     arr[index,j]=arr[index,j+1];
